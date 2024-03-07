@@ -1,0 +1,51 @@
+.about-description {
+    margin: 100px 100px 40px 100px;
+}
+
+.about-description p {
+    width: 70%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-description h2 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.about-description img {
+    width: 100%;
+}
+
+.banner-about img {
+    width: 100%;
+}
+
+.button-primary a {
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.about-call {
+    padding-top: 50px;
+}
+
+.button-primary a {
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+}
+
+.button-secondary a {
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+}
+
+.font-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
