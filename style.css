@@ -1,9 +1,11 @@
+/* About section */
+
 .about-description {
-    margin: 100px 100px 40px 100px;
+    margin: 200px 100px 200px 100px;
 }
 
 .about-description p {
-    width: 70%;
+    width: 100%;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
 }
@@ -15,9 +17,16 @@
 }
 
 .about-description img {
-    width: 100%;
+    width: 70%;
+    height: auto;
     border-radius: 60px;
     box-shadow: 10px 15px 40px;
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center !important;
 }
 
 .banner-about img {
@@ -54,4 +63,201 @@
 
 .pd-left-100 {
     padding-left: 100px;
+}
+
+/* Mission and vision */
+
+.vision-mission {
+    margin: 200px 200px 200px 200px;
+}
+
+.vision-mission-block {
+    background-color: black;
+    color: white;
+    padding: 100px 100px 100px 100px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.vision-mission-block .mission-block {
+    padding-right: 60px;
+}
+
+.vision-mission-block .vission-block {
+    padding-left: 60px;
+}
+
+.why-should {
+    margin-bottom: 150px;
+}
+
+.why-learn-3124f {
+    text-align: center;
+}
+
+.why-learn-3124f h2 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.why-learn-3124f p {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.why-should-keypoints {
+    margin: auto;
+    margin-top: 100px;
+}
+
+.why-should-keypoints img {
+    width: 20%;
+}
+
+/* FAQ section */
+
+.faq-form-section {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 
+                0 0 10px rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.faq {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.faq-container {
+    width: 100%;
+}
+
+.faq-label {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 19px;
+    background: #d0edf0;
+}
+
+.faq-label-text {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+.faq-label-icon {
+    padding: 2px 3px;
+    background: #d0edf0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.material-icons {
+    color: #365A5E;
+    transition: 0.3s ease;
+}
+
+.faq-answer {
+    transition: 0.3s ease;
+    margin-top: 15px;
+    height: 0;
+    border-radius: 6px;
+    color: rgba(127, 121, 121, 1);
+    overflow: hidden;
+}
+
+.faq-answer-content {
+    padding: 10px 0 10px 15px;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+.active {
+
+    background: #FFFFFF;
+    border: 1px solid #C7C4C4;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.rotate {
+    transform: rotate(180deg)
+}
+
+.global-label-text h2 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.score {
+    display: none;
+    color: #00ff2a;
+    padding: 15px;
+    width: 45px;
+    height: 25px;
+    margin: 45px auto;
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: white;
+}
+
+/* About Form */
+
+.form-about {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 
+                0 0 10px rgba(255, 255, 255, 0.2); 
+}
+
+.form-about h2 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.form-about input,
+.form-about textarea {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    border-radius: 20px;
+    border-color: #000000;
+    border-style: none;
+    box-shadow: 1px 1px 2px #000000;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.form-about input[type="text"],
+.form-about textarea {
+    padding: 20px;
+}
+
+.form-submit-btn {
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    width: 175px;
+    margin-bottom: 25px;
 }
